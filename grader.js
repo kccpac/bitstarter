@@ -29,11 +29,8 @@ var cheerio = require('cheerio');
 var HTMLFILE_DEFAULT = "index.html";
 var CHECKSFILE_DEFAULT = "checks.json";
 var URL_DEFAULT="http://damp-brushlands-8040.herokuapp.com/";
-var outfile="out.txt"
 var checkFunc;
 var inHtml;
-var outHtml;
-var out = {};
 
 var analyze = function (outhtml, checksfile) {
     $ = outhtml;
